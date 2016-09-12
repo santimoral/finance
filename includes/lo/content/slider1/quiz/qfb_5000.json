@@ -1,0 +1,6 @@
+[
+	{"feedback" : "right!", "right" : true},
+	{"feedback" : "mmmm, not exact! try again!", "right" : false},
+	{"feedback" : "it's not right, try again", "right" : false}
+
+]	

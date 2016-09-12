@@ -1,0 +1,5 @@
+[
+	{"feedback" : "it's not right, try again", "right" : false},
+	{"feedback" : "exactly!", "right" : true},
+	{"feedback" : "mmmm, almost! try again!", "right" : false}
+]	

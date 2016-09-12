@@ -1,0 +1,106 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ ***************************************************************************/
+
+.container-fluid
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #666;
+}
+
+.portfolio {
+    margin: 40px auto;
+    font-size: 14px;
+}
+
+td, th {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #ddd;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #6683DD;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+input {
+    margin: 5px 10px;
+}
+
+.menu {
+    display: block;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px 20px;
+     border-radius: 5px;
+}
+
+.menu li:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+form.action {
+    margin: 0;
+}
+
+.quote-form {
+    margin: 0px auto;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+#middle
+{
+    /* center contents */
+    text-align: center;
+    margin-top: 40px;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+
+    /* center contents */
+    text-align: center;
+}

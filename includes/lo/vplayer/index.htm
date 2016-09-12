@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+
+<head>
+   <meta charset="">
+
+   <title>Video info · Standalone demo · Flowplayer</title>
+
+   <!-- optimize mobile versions -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- The "playful" skin, "minimalist.css", "functional.css" and "playful.css" are available -->
+   <link rel="stylesheet" href="http://releases.flowplayer.org/5.2.0/skin/playful.css"/>
+
+   <!-- Minimal styling for this standalone page (can be removed) -->
+   <style>
+   body {
+      font-family: "myriad pro", tahoma, verdana, arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+   }
+   #content {
+      margin: 50px auto;
+      max-width: 640px;
+   }
+      </style>
+
+   <!-- CSS for this demo -->
+   <link rel="stylesheet" href="flow_player.css"/>
+   
+   <!-- Flowplayer depends on jquery -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+   <!-- Flowplayer-->
+   <script src="http://releases.flowplayer.org/5.2.0/flowplayer.min.js"></script>
+
+   <script>
+   // global configuration (optional)
+   flowplayer.conf.rtmp = "rtmp://s3b78u0kbtx79q.cloudfront.net/cfx/st";
+   if (/flash/.test(location.search)) {
+      flowplayer.conf.engine = "flash";
+      flowplayer.conf.swf = "http://releases.flowplayer.org/5.2.0/flowplayer.swf";
+   }
+</script>
+
+</head>
+
+<body>
+<div id="content">
+
+<div id="timeline_info" class="flowplayer"
+   data-cuepoints="[10, 20, 30, 40, 50, 60, 70, 80]">
+
+   <video autoplay preload="auto">
+<source type="video/webm"  src="http://maybe.factoriadigital.com/lion_university/creativity/S3T2VM_process_content.webm"/>
+	<source type="video/mp4"   src="http://maybe.factoriadigital.com/lion_university/creativity/S3T2VM_process_content.mp4"/>
+   
+</video>
+
+   <span class="info info0"></span>
+   <span class="info info1">This is a text</span>
+   <span class="info info2">Another text</span>
+   <span class="info info3"><Learn more here</a></span>
+   <span class="info info4">Process is applicable to anything</span>
+   <span class="info info5"><</span>
+   <span class="info info6"></span>
+   <span class="info info7"></span>
+
+</div>
+
+
+</div><!--/end content -->
+</body>
+
+</html>
